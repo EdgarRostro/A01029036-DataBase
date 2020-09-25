@@ -4,4 +4,4 @@ with open(filepath,'r') as fp:
     data = fp.read().split('\n')
     
 data = [f.split(',') for f in data]
-print (data[0][0])git 
+print (data[0][0]) 
